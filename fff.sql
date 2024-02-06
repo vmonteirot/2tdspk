@@ -1,0 +1,1 @@
+select 'drop table'||table_name|| 'cascade constraint;' from user_tables;
